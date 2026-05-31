@@ -45,19 +45,19 @@ http://localhost:5000
 ```
 
 #### Features
-Team Autocomplete — search and select teams from dataset
-Date Picker — choose match date for contextual prediction
-Outcome Probabilities — animated bars for Home / Draw / Away chances
-Predicted Scoreline — estimated goals + expected goals (xG)
-Match Statistics — shots, corners, fouls, cards, half-time goals
-Recent Form Analysis — last 5 matches before selected date
+- Team Autocomplete — search and select teams from dataset
+- Date Picker — choose match date for contextual prediction
+- Outcome Probabilities — animated bars for Home / Draw / Away chances
+- Predicted Scoreline — estimated goals + expected goals (xG)
+- Match Statistics — shots, corners, fouls, cards, half-time goals
+- Recent Form Analysis — last 5 matches before selected date
 
 #### Architeture
 
 ```
 football-ui/
 ├── server.py          # Flask API (wraps nn_football.predict)
-├── requirements.txt
+├── pyproject.toml
 ├── README.md
 └── static/
     ├── index.html     # Single-page frontend
